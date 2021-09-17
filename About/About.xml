@@ -1,0 +1,21 @@
+<ModMetaData>
+  <name>Igor All Population Patch</name>
+  <author>Froggo</author>
+  <packageId>froggo.IgorAllPopulation_copy</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <description>Makes it so Igor can start raids when the colonist population is 1.
+	
+Requires Vanilla Factions Expanded - Mechanoids or Vanilla Storytellers Expanded - Igor Invader. Both of which are made by Oskar Potocki
+	</description>
+  <url>https://steamcommunity.com/id/FroggoTheFirst/myworkshopfiles/?appid=294100</url>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>VSE.IgorInvader</li>
+    <li>OskarPotocki.VFE.Mechanoid</li>
+    <li>OskarPotocki.VSE.IgorInvader</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Factions Expanded - Mechanoids</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/StorytellerDef[defName="VFEMech-IgorInvader"]/modExtensions/li[@Class="VanillaStorytellersExpanded.StorytellerDefExtension"]/storytellerThreat/disableThreatsAtPopulationCount</xpath>
+            <value><disableThreatsAtPopulationCount>0</disableThreatsAtPopulationCount></value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Storytellers Expanded - Igor Invader</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/StorytellerDef[defName="VSE-IgorInvader"]/modExtensions/li[@Class="VanillaStorytellersExpanded.StorytellerDefExtension"]/storytellerThreat/disableThreatsAtPopulationCount</xpath>
+            <value><disableThreatsAtPopulationCount>0</disableThreatsAtPopulationCount></value>
+        </match>
+    </Operation>
+</Patch>
